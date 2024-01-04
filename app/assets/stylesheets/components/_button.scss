@@ -1,0 +1,13 @@
+.btn-yellow {
+  color: white;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: #FFB703;
+  transition: background 0.3s ease;
+  margin-right: 20px;
+}
+
+.btn-yellow:hover {
+  background: #e5a605;
+  color: white;
+}

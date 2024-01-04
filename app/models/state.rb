@@ -7,5 +7,5 @@ class State < ApplicationRecord
 
   # Cloudinary
 
-  has_one_atthached :photo
+  has_one_attached :photo
 end

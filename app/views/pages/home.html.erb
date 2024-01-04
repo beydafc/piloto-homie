@@ -1,2 +1,25 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= image_path "banner.png"%>');">
+  <div class="container">
+    <h1><strong>HEY HOMIE!</strong></h1>
+    <h4 class="mb-3">You´ll feel just like home</h4>
+  </div>
+</div>
+
+<div class="mt-5">
+  <div class="container">
+    <h3 class="text-warning">What are you looking for?</h3>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 40px;">
+  <div class="col">
+    <div class="card h-100" style="border-radius: 10px;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="https://drive.google.com/file/d/1RWbV9NLtfxJxQRSjuDdFCTgBpnw2kzXV/view?usp=drive_link" class="card-img-top" style="height: 20; width: 20;" alt="t-shirt">
+        <div class="card-body">
+          <h5 class="card-title">Tops</h5>
+          <p class="card-text">Garments as t-shirts, shirts, tops and blouses.</p>
+            <%= link_to "#", class: "btn btn-primary" %>
+        </div>
+    </div>
+  </div>
+</div>
