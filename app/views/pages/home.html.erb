@@ -13,13 +13,36 @@
 
 <div class="row row-cols-1 row-cols-md-3 g-4" style="margin: 40px;">
   <div class="col">
-    <div class="card h-100" style="border-radius: 10px;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img src="https://drive.google.com/file/d/1RWbV9NLtfxJxQRSjuDdFCTgBpnw2kzXV/view?usp=drive_link" class="card-img-top" style="height: 20; width: 20;" alt="t-shirt">
-        <div class="card-body">
-          <h5 class="card-title">Tops</h5>
-          <p class="card-text">Garments as t-shirts, shirts, tops and blouses.</p>
-            <%= link_to "#", class: "btn btn-primary" %>
-        </div>
-    </div>
+    <%= link_to root_path, class: "text-decoration-none" do %>
+      <div class="card h-100" style="border-radius: 10px;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="https://media.istockphoto.com/id/1224676708/photo/friends-toasting-at-pub.jpg?s=612x612&w=0&k=20&c=35wbBh1e5Es5BT1y232K6P1LlOtqQMGAT94LnG9g_HY=" class="card-img-top card-product-img" style="height: 20; width: 20;">
+          <div class="card-body">
+            <h5 class="card-title">Plans & Friends</h5>
+            <p class="card-text">Make friends and have fun in your new city!</p>
+          </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col">
+    <%= link_to root_path, class: "text-decoration-none" do %>
+      <div class="card h-100" style="border-radius: 10px;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="https://media.istockphoto.com/id/620972806/photo/man-texting-in-the-shopping-mall.jpg?s=612x612&w=0&k=20&c=c9ByRTLwKrXzlPSBag2QzjU0pDS7P_SR07AjxqMlcU8=" class="card-img-top card-product-img" style="height: 20; width: 20;">
+          <div class="card-body">
+            <h5 class="card-title">Stores & Promos</h5>
+            <p class="card-text">Everything you need and more!</p>
+          </div>
+      </div>
+    <% end %>
+  </div>
+  <div class="col">
+    <%= link_to root_path, class: "text-decoration-none" do %>
+      <div class="card h-100" style="border-radius: 10px;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img src="https://cdn.forbes.com.mx/2015/05/google_maps.jpg" class="card-img-top card-product-img" style="height: 20; width: 20;">
+          <div class="card-body">
+            <h5 class="card-title">City Data</h5>
+            <p class="card-text">Get to know your new city!</p>
+          </div>
+      </div>
+    <% end %>
   </div>
 </div>
