@@ -1,0 +1,10 @@
+<% states_banner = image_path "grey-bg.png"%>
+<div class="secondary-banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= states_banner%>');">
+  <div class="container">
+      <div class="form-group has-search w-100 mx-auto">
+        <%= form_with url: root_path, method: :get do %>
+        <%= text_field_tag :query, nil, class: "form-control rounded", placeholder:"Enter your city name and press Enter!"%>
+        <% end %>
+      </div>
+  </div>
+</div>
